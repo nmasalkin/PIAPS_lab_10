@@ -32,12 +32,13 @@ public class Course {
         this.id = id;
     }
 
-    public Course(String name, double hours, int id) {
-        // TODO - implement src.Course.src.Course
+    public Course(String name, float hours, int id) {
+        this.name = name;
+        this.hours = hours;
+        this.id = id;
     }
 
     public void cancelLesson() {
-        // TODO - implement src.Course.cancelLesson
     }
 
     @Override

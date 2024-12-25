@@ -33,7 +33,10 @@ public class Faculty {
         this.name = name;
     }
 
-    public Faculty(Dean dean, Collection institutes, String name) {
+    public Faculty(Dean dean, Institute institutes, String name) {
+        this.dean = dean;
+        this.institutes = institutes;
+        this.name = name;
     }
 
     public void setSessionDate() {

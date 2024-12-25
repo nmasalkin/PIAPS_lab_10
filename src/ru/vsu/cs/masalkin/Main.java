@@ -44,7 +44,7 @@ public class Main {
         Institute institute = new Institute("IoT - Институт информационных технологий", "Россия, г. Воронеж, Университетская пл., д. 1, ауд. 381а");
         institutes.add(institute);
 
-        Faculty faculty = new Faculty(dean, institutes, "Факультет компьютерных наук (ФКН)");
+        Faculty faculty = new Faculty(dean, institute, "Факультет компьютерных наук (ФКН)");
         faculties.add(faculty);
 
         printData(lecturers, students, courses, faculties, institutes, adminEmployees, participation, assistant, project);
